@@ -44,3 +44,70 @@
     
 }
 // FOOTER
+.footer{
+    background-color: white;
+    width: 100%;
+    padding-top: 4%;
+    
+    .dci-numbers{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h2{
+                font-size: 1.5vw;
+            }
+            p{
+                font-size: 1.2vw;
+            }
+        }
+    }
+    .footer-btn{
+        text-align: center;
+        padding: 2%;
+        button{
+            font-size: 1vw;
+            padding: 1% 6%;
+            background-color: rgb(255, 110,24, 1);
+            color: white;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            margin-right: 4%;
+
+            
+        }
+    }
+    .last-footer{
+        width: 100%;
+        background-color: rgba(4,8,60,1);
+        display: flex;
+        div:nth-child(1){
+            width: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 5%;
+            small{
+                margin-left: 4%;
+            }
+        }
+        div:nth-child(2){
+            width: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                color: white;
+            }
+        }
+    }
+    
+}
