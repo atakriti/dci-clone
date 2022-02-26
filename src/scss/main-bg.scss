@@ -45,25 +45,25 @@ header {
       content: "";
       background-image: url(../images/blue-dots-baner-.png);
       background-repeat: no-repeat;
-      background-size: 10vw;
+      background-size: 14vw;
       position: absolute;
-      top: 20%;
-      left: 3%;
+      top: 17%;
+      left: 0%;
       width: 10vw;
       height: 15vw;
-      // z-index: -2;
+      z-index: -2;
     }
     &::after {
         content: "";
         background-image: url(../images/red-dots-baner-.png);
         background-repeat: no-repeat;
-        background-size: 10vw;
+        background-size: 14vw;
         position: absolute;
-        top: 55%;
-        right: 49%;
-        width: 10vw;
+        top: 52%;
+        right: 46%;
+        width: 14vw;
         height: 15vw;
-         z-index: -2;
+       z-index: -2;
       }
 
     .states {
