@@ -1,0 +1,130 @@
+.om{
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding: 4%;
+    
+    .top-part{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+         padding: 1% 5%;
+        .om-text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 2vw;
+                margin-bottom: 4%;
+            }
+            p{
+                font-size: 1.3vw;
+            }
+        }
+        .img{
+            width: 50%;
+            display: flex;
+            justify-content: flex-start;
+
+            img{
+                height: 100%;
+                width: 20vw;
+            }
+        }
+    }
+    .om-courses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+        position: relative;
+       
+        div{
+            width: 48%;
+            padding: 5%;
+            background-color: white;
+            margin-bottom: 4%;
+            
+           &:nth-child(1){
+            position: relative;
+            &::before{
+                content: "";
+                background-image: url(../images/orange-dots-left.png);
+                background-repeat: no-repeat;
+                background-size: 14vw;
+                position: absolute;
+                top: -43%;
+                left: -22%;
+                width: 20vw;
+                height: 20vw;
+                 z-index: -2;
+            }
+           }
+           &:nth-child(2){
+            position: relative;
+            &::before{
+                content: "";
+                background-image: url(../images/red-dots-baner-.png);
+                background-repeat: no-repeat;
+                background-size: 14vw;
+                position: absolute;
+                top: 65%;
+                left: 68%;
+                width: 20vw;
+                height: 20vw;
+                 z-index: -2;
+            }
+           }
+           &:nth-child(3){
+               position: relative;
+               &::before{
+                content: "";
+                background-image: url(../images/ornage-dots-down.png);
+                background-repeat: no-repeat;
+                background-size: 14vw;
+                position: absolute;
+                top: 50%;
+                left: -28%;
+                width: 20vw;
+                height: 20vw;
+                 z-index: -2;
+            }
+           }
+            h2{
+                font-size: 1.4vw;
+                margin-bottom: 4%;
+            strong{
+                color: rgb(255, 110,24, 1);
+                margin-right: 4%;
+                font-size: 2vw;
+            }           
+            span{
+                font-size: 2vw;
+                margin-right: 4%;
+            }
+         }
+         p{
+             font-size: 1.3vw;
+         }
+        }
+    }
+    .become-om{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        p{
+            font-size: 1.5vw;
+        }
+        button{
+            background-color: rgb(255, 110,24, 1);
+            font-size: 1.2vw;
+            padding: 4% 6%;
+            border: none;
+            color: white;
+            outline: none;
+            margin-top: 5%;
+            font-weight: bold;
+        }
+    }
+}
