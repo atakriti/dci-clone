@@ -87,6 +87,7 @@
         width: 100%;
         background-color: rgba(4,8,60,1);
         display: flex;
+        padding: 1% 0;
         div:nth-child(1){
             width: 50%;
             color: white;
@@ -96,6 +97,11 @@
             padding: 0 5%;
             small{
                 margin-left: 4%;
+                font-size: 0.6vw;
+            }
+            img{
+                width: 5vw;
+                height: 5vw;
             }
         }
         div:nth-child(2){
@@ -104,8 +110,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 0.7vw;
             a{
                 color: white;
+                margin-right: 1%;
+                margin-left: 1%;
             }
         }
     }
