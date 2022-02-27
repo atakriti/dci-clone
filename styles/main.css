@@ -609,6 +609,7 @@ header div img {
 
   .wd {
     width: 100%;
+    margin: 7% 0;
   }
   .wd .top-part {
     padding: 1% 0%;
@@ -671,6 +672,8 @@ header div img {
 
   .om {
     width: 100%;
+    padding-bottom: 10%;
+    padding-top: 0%;
   }
   .om .top-part {
     padding: 1% 0%;
