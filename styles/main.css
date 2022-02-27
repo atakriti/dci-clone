@@ -556,8 +556,7 @@ header div img {
     height: 40vw;
   }
   .baner .baner-img h1 {
-    width: 50%;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .baner .middle {
     flex-direction: column;
@@ -566,7 +565,7 @@ header div img {
     display: none;
   }
   .baner .middle .states {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     transform: translate(0, -10%);
   }
