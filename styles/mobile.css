@@ -1,0 +1,252 @@
+@media only screen and (max-width: 600px) {
+  header {
+    height: 10vw;
+  }
+  header div {
+    padding: 2%;
+  }
+  header div img {
+    width: 70%;
+  }
+
+  .baner {
+    margin: 0;
+    width: 100%;
+  }
+  .baner .baner-img {
+    height: 40vw;
+  }
+  .baner .baner-img h1 {
+    font-size: 4vw;
+  }
+  .baner .middle {
+    flex-direction: column;
+  }
+  .baner .middle::before, .baner .middle::after {
+    display: none;
+  }
+  .baner .middle .states {
+    width: 70%;
+    margin: 0 auto;
+    transform: translate(0, -10%);
+  }
+  .baner .middle .states .checked img {
+    width: 4vw;
+    height: 4vw;
+  }
+  .baner .middle .states .checked p {
+    font-size: 3.2vw;
+  }
+  .baner .middle .states p {
+    font-size: 3.5vw;
+  }
+  .baner .middle .states .countries div img {
+    width: 3vw;
+    height: 5vw;
+  }
+  .baner .middle .states .countries div p {
+    font-size: 2.5vw;
+  }
+  .baner .middle .right-side {
+    margin: 0 auto;
+    width: 60%;
+    height: 30vw;
+  }
+  .baner .middle .right-side .images {
+    width: 100%;
+    height: 100%;
+  }
+  .baner .middle .right-side .images img {
+    width: 14vw;
+    height: 14vw;
+  }
+  .baner .middle .right-side .images img:nth-child(2) {
+    width: 17vw;
+    height: 10vw;
+  }
+  .baner .middle .right-side p {
+    font-size: 3vw;
+  }
+
+  .wd {
+    width: 100%;
+  }
+  .wd .top-part {
+    padding: 1% 0%;
+  }
+  .wd .top-part .wd-text {
+    padding: 0 2%;
+  }
+  .wd .top-part .wd-text h1 {
+    font-size: 4vw;
+  }
+  .wd .top-part .wd-text p {
+    font-size: 3vw;
+  }
+  .wd .top-part .img img {
+    width: 100%;
+  }
+  .wd .wd-courses {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wd .wd-courses div {
+    width: 70%;
+  }
+  .wd .wd-courses div h2 {
+    font-size: 3vw;
+  }
+  .wd .wd-courses div h2 strong {
+    font-size: 4vw;
+  }
+  .wd .wd-courses div h2 span {
+    font-size: 4vw;
+  }
+  .wd .wd-courses div p {
+    font-size: 3vw;
+  }
+  .wd .wd-courses div:nth-child(1)::before {
+    background-size: 25vw;
+    width: 50%;
+    height: 100%;
+  }
+  .wd .wd-courses div:nth-child(2)::before {
+    background-image: url(../images/blue-dots-baner-.png);
+    background-size: 30vw;
+    width: 50%;
+    height: 100%;
+    margin-top: 70%;
+  }
+  .wd .wd-courses div:nth-child(4)::before {
+    display: none;
+  }
+  .wd .become-dev {
+    width: 70%;
+  }
+  .wd .become-dev p {
+    font-size: 3vw;
+  }
+  .wd .become-dev button {
+    font-size: 3vw;
+  }
+
+  .om {
+    width: 100%;
+  }
+  .om .top-part {
+    padding: 1% 0%;
+  }
+  .om .top-part .om-text {
+    padding: 0 2%;
+  }
+  .om .top-part .om-text h1 {
+    font-size: 4vw;
+  }
+  .om .top-part .om-text p {
+    font-size: 3vw;
+  }
+  .om .top-part .img img {
+    width: 100%;
+  }
+  .om .om-courses {
+    flex-direction: column;
+    align-items: center;
+  }
+  .om .om-courses div {
+    width: 70%;
+  }
+  .om .om-courses div h2 {
+    font-size: 3vw;
+  }
+  .om .om-courses div h2 strong {
+    font-size: 4vw;
+  }
+  .om .om-courses div h2 span {
+    font-size: 4vw;
+  }
+  .om .om-courses div p {
+    font-size: 3vw;
+  }
+  .om .om-courses div:nth-child(1)::before {
+    background-size: 25vw;
+    width: 50%;
+    height: 100%;
+  }
+  .om .om-courses div:nth-child(2)::before {
+    background-size: 30vw;
+    width: 50%;
+    height: 100%;
+    margin-top: 70%;
+  }
+  .om .om-courses div:nth-child(3)::before {
+    display: none;
+  }
+  .om .become-om {
+    width: 70%;
+  }
+  .om .become-om p {
+    font-size: 3vw;
+  }
+  .om .become-om button {
+    font-size: 3vw;
+  }
+
+  .logos h1 {
+    font-size: 4vw;
+  }
+  .logos div {
+    width: 80%;
+  }
+  .logos div img {
+    width: 8vw;
+    height: 5vw;
+  }
+  .logos div img:nth-child(5) {
+    width: 12vw;
+  }
+
+  .dci-about div {
+    padding: 0 4%;
+    width: 100%;
+  }
+  .dci-about div h1 {
+    font-size: 4vw;
+  }
+  .dci-about div p {
+    font-size: 3vw;
+  }
+
+  .footer .dci-numbers {
+    width: 70%;
+  }
+  .footer .dci-numbers div h2 {
+    font-size: 3vw;
+  }
+  .footer .dci-numbers div p {
+    font-size: 2.4vw;
+  }
+  .footer .footer-btn button {
+    font-size: 2vw;
+  }
+  .footer .last-footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .footer .last-footer div:nth-child(1) {
+    flex-direction: column;
+    padding: 0 3%;
+  }
+  .footer .last-footer div:nth-child(1) small {
+    font-size: 2.4vw;
+  }
+  .footer .last-footer div:nth-child(1) img {
+    width: 12vw;
+    height: 12vw;
+  }
+  .footer .last-footer div:nth-child(2) {
+    font-size: 2vw;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
