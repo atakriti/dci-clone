@@ -17,7 +17,8 @@
     height: 40vw;
   }
   .baner .baner-img h1 {
-    font-size: 4vw;
+    width: 50%;
+    font-size: 3.5vw;
   }
   .baner .middle {
     flex-direction: column;

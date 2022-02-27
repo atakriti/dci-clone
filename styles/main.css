@@ -556,7 +556,8 @@ header div img {
     height: 40vw;
   }
   .baner .baner-img h1 {
-    font-size: 4vw;
+    width: 50%;
+    font-size: 3.5vw;
   }
   .baner .middle {
     flex-direction: column;
@@ -792,19 +793,6 @@ header div img {
   .footer .last-footer div:nth-child(2) {
     width: 100%;
     font-size: 2vw;
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 772px) {
-  .baner {
-    width: 100%;
-  }
-  .baner .baner-img img {
-    object-fit: cover;
-    object-position: top;
-  }
-  .baner .middle .states {
-    transform: translate(0, -13%);
-    width: 45%;
   }
 }
 * {
