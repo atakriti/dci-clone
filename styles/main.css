@@ -565,7 +565,7 @@ header div img {
     display: none;
   }
   .baner .middle .states {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     transform: translate(0, -10%);
   }
@@ -579,12 +579,21 @@ header div img {
   .baner .middle .states p {
     font-size: 3.5vw;
   }
+  .baner .middle .states .countries div {
+    justify-content: center;
+    align-items: center;
+  }
+  .baner .middle .states .countries div a {
+    flex-direction: column;
+    padding: 0;
+  }
   .baner .middle .states .countries div img {
-    width: 3vw;
-    height: 5vw;
+    width: 5vw;
+    height: 8vw;
   }
   .baner .middle .states .countries div p {
     font-size: 2.5vw;
+    text-align: center;
     margin-left: 6%;
   }
   .baner .middle .right-side {
