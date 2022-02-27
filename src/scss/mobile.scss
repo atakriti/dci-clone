@@ -26,7 +26,7 @@
             }
             flex-direction: column;
             .states{
-                 width: 60%;
+                 width: 70%;
                 margin: 0 auto;
                 transform: translate(0,-10%);
                 .checked{
@@ -44,12 +44,20 @@
                 // countries
                 .countries{
                     div{
+                        justify-content: center;
+                        align-items: center;
+                       a{
+                           flex-direction: column;
+                          
+                           padding: 0;
+                       }
                         img{
-                            width: 3vw;
-                            height: 5vw;
+                            width: 5vw;
+                            height: 8vw;
                         }
                         p{
                             font-size: 2.5vw;
+                            text-align: center;
                             margin-left: 6%;
                         }
                     }
