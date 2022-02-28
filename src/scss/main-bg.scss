@@ -95,9 +95,15 @@ header {
         padding-left: 3%;
       }
       .countries {
-        display: flex;
+         display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
         justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
         margin-top: 5%;
         div {
           border: 1px rgb(224, 224, 224) solid;
