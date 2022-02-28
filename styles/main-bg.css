@@ -95,6 +95,7 @@ header div img {
   padding-left: 3%;
 }
 .baner .middle .states .countries {
+  border: 1px red solid;
   display: flex;
   -webkit-display: flex;
   -moz-display: flex;
