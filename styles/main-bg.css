@@ -96,8 +96,14 @@ header div img {
 }
 .baner .middle .states .countries {
   display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
   margin-top: 5%;
 }
 .baner .middle .states .countries div {
