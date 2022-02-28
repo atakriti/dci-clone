@@ -804,6 +804,12 @@ header div img {
     font-size: 2vw;
   }
 }
+@media only screen and (min-width: 760px) and (orientation: landscape) {
+  .baner .middle .states {
+    transform: translate(0, -15%);
+    width: 50%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
