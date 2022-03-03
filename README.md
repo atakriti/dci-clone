@@ -53,3 +53,6 @@ LinkedIn: [your linkedIn](#)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ---
+License of Awesome
+Code — MIT License
+---
