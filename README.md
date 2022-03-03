@@ -48,10 +48,8 @@ LinkedIn: [your linkedIn](#)
 ### Used Tools
 
 - [icons](https://)
-<!-- - [Canva](https://www.canva.com/) -->
 - [npm](https://www.npmjs.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-<!-- - [ColorZilla](https://www.colorzilla.com/chrome/) -->
 
 ---
