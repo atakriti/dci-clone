@@ -6,7 +6,7 @@
 #### Navigation
 
 - About Project
-  - _i cloned DCI Institute_
+  - _i cloned DCI Institute website_
 - How to use this Project
   - _In The Main we will have the Description of the website , the when we scroll down we find the Kind of courses we have, then the Footer and the contacts_
   - _Developed With_
